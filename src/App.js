@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {BrowserRouter} from 'react-router-dom';
 import './App.css';
+import 'foundation-sites/dist/css/foundation.min.css';
 
 import Main from './components/Main';
 

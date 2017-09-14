@@ -22,3 +22,59 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.top-bar, .top-bar ul {
+  background-color: #333333;
+}
+
+.top-bar
+  .menu-text {
+    color: white;
+}
+
+.top-bar
+  .menu > .menu-text > a {
+    display: inline;
+    padding: 0;
+}
+
+.top-bar
+  .active-link {
+    font-weight: bold;
+}
+
+.page-title {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+}
+
+.controls  .button {
+  padding: .75rem 3rem;
+}
+
+.controls  .button:first-child {
+  margin-right: 1.5rem;
+}
+
+.clock {
+  align-items: center;
+  background-color: #B5D0E2;
+  border: 2px solid #2099E8;
+  border-radius: 50%;
+  display: flex;
+  height: 14rem;
+  justify-content: center;
+  margin: 4rem auto;
+  width: 14rem;
+}
+
+.clock-text {
+  color: white;
+  font-size: 2.25rem;
+  font-weight: 300;
+}

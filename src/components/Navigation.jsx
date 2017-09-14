@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {NavLink} from 'react-router-dom';
+import '../App.css';
 
 class Navigation extends Component {
   render() {
@@ -10,7 +11,7 @@ class Navigation extends Component {
             <li className="menu-text">React Timer App</li>
             <li>
               <NavLink
-                to="/"
+                to="/timer"
                 activeClassName="active-link"
                 activeStyle={{fontWeight: 'bold'}}
               >Timer</NavLink>
