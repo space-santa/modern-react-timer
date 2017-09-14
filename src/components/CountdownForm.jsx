@@ -13,7 +13,7 @@ class CountdownForm extends Component {
 
   render() {
     return (
-      <div>
+      <div className="controls">
         <form ref="form" onSubmit={this.onSubmit} className="countdown-form">
           <input type="text" ref="seconds" placeholder="Enter time in seconds"/>
           <button className="button expanded">Start</button>
